@@ -1,0 +1,25 @@
+body {
+	background: #FFFFFF;
+}
+
+.top_1 {
+	width: 100vw;
+	height: 100vh;
+}
+
+.img {
+	height: 10rem;
+	width: 10rem;
+}
+
+.huanying {
+	margin-top: 2rem;
+	font-size: 2rem;
+	color: #666666;
+}
+
+.company {
+	margin-bottom: 2rem;
+	color: #333333;
+	font-size: 0.7rem;
+}

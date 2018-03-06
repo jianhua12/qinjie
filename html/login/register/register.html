@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>用户注册</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link href="../../../css/mui.min.css" rel="stylesheet" />
+		<link href="../../../form_util/mui/css/iconfont.css" rel="stylesheet" />
+		<link href="../../../css/base.css" rel="stylesheet" />
+		<link href="register.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<div class="actionbar">
+			<div class="left" onclick="back()">
+				<span class="left_icon  iconfont icon-arrow-left"></span>
+			</div>
+			<span class="text">用户注册</span>
+			<div class="right" onclick="goToRegister()">
+			</div>
+		</div>
+
+		<div class="actionbar_white"></div>
+		<div class="mui-content">
+			<div id="slider" class="mui-slider">
+				<div id="sliderSegmentedControl" class="white mui-slider-indicator mui-segmented-control mui-segmented-control-inverted ">
+					<a class="mui-control-item mui-active" href="#item1mobile">
+						授权人注册
+					</a>
+					<a class="mui-control-item" href="#item2mobile">
+						账号注册
+					</a>
+				</div>
+				<div id="sliderProgressBar" class="mui-slider-progress-bar mui-col-xs-6"></div>
+				<div class="mui-slider-group">
+					<div id="item1mobile" class="mui-slider-item mui-control-content mui-active">
+						<div id="scroll1" class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+								<div class="ggg verticalcenter">
+									<div class="margin_top"></div>
+									<div class="item_register horizontalcenter" onclick="goToMyCollect()">
+										<span class="item_register_left iconfont icon-yingyezhizhao"></span>
+										<input class="edt_gg" placeholder="请输入营业执照"></input>
+									</div>
+									<div class="item_register" onclick="goToMyCollect()">
+										<span class="item_register_left  iconfont icon-yingyezhizhao"></span>
+										<input class="edt_gg" placeholder="请输入公司名称"></input>
+									</div>
+									<div class="item_register" onclick="goToMyCollect()">
+										<span class="item_register_left  iconfont icon-yingyezhizhao"></span>
+										<input class="edt_gg" placeholder="请输入注册地址"></input>
+									</div>
+									<div class="item_register" onclick="goToMyCollect()">
+										<span class="item_register_left  iconfont icon-yingyezhizhao"></span>
+										<input class="edt_gg" placeholder="请输入手机号码"></input>
+									</div>
+									<div class="item_register" onclick="goToMyCollect()">
+										<span class="item_register_left  iconfont icon-yingyezhizhao"></span>
+										<input class="edt_gg" placeholder="选择使用年限"></input>
+									</div>
+
+									<div class="xieyi horizontal">
+										<img class="gou" src="../../../images/u925.png" />
+										<div class="gou_txt">已阅读并同意《</div>
+										<div class="fuwuxieyi" onclick="goToAggrement()">用户服务协议</div>
+										<div class="gou_txt">》</div>
+									</div>
+									<button class="normal_button" onclick="goToMain()">确认</button>
+									<div class="julidibu"></div> 
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+					<div id="item2mobile" class="mui-slider-item mui-control-content">
+						<div id="scroll2" class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+								 <div class="ggg verticalcenter">
+									<div class="margin_top"></div>
+									<div class="item_register horizontalcenter" onclick="goToMyCollect()">
+										<span class="item_register_left iconfont icon-yingyezhizhao"></span>
+										<input class="edt_gg" placeholder="请输入手机号码"></input>
+									</div>
+									<div class="item_register" onclick="goToMyCollect()">
+										<span class="item_register_left  iconfont icon-yingyezhizhao"></span>
+										<input class="edt_gg" placeholder="请输入公司名称"></input>
+									</div>
+									<div class="item_register" onclick="goToMyCollect()">
+										<span class="item_register_left  iconfont icon-yingyezhizhao"></span>
+										<input class="edt_gg" placeholder="设置密码"></input>
+									</div>
+									<div class="item_register" onclick="goToMyCollect()">
+										<span class="item_register_left  iconfont icon-yingyezhizhao"></span>
+										<input class="edt_gg" placeholder="确认密码"></input>
+									</div>
+									
+									<div class="xieyi horizontal">
+										<img class="gou" src="../../../images/u925.png" />
+										<div class="gou_txt">已阅读并同意《</div>
+										<div class="fuwuxieyi" onclick="goToAggrement()">用户服务协议</div>
+										<div class="gou_txt">》</div>
+									</div>
+									<button class="normal_button" onclick="goToTixian()">确认</button>
+									<div class="julidibu"></div> 
+								</div>
+
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<script src="../../../js/mui.min.js"></script>
+		<script src="register.js"></script>
+		<script>
+			mui.init({
+				swipeBack: false
+			});
+			(function($) {
+				$('.mui-scroll-wrapper').scroll({
+					indicators: true //是否显示滚动条
+				});
+
+				var sliderSegmentedControl = document.getElementById('sliderSegmentedControl');
+				$('.mui-input-group').on('change', 'input', function() {
+					if(this.checked) {
+						sliderSegmentedControl.className = 'white mui-slider-indicator mui-segmented-control mui-segmented-control-inverted mui-segmented-control-' + this.value;
+						//force repaint 
+						sliderProgressBar.setAttribute('style', sliderProgressBar.getAttribute('style'));
+					}
+				});
+			})(mui);
+			
+			mui.init({
+				//预加载下个界面
+				preloadPages: [{
+					url: '../login.html',
+					id: 'login'
+				}]
+			});
+		</script>
+		<script src="../../form_util/util/sys_js/jquery.js"></script>
+		<script src="../../form_util/util/util_js/ajaxUtil.js"></script>
+		<script src="../../form_util/util/util_js/bodyUtil.js"></script>
+		<script src="../../form_util/util/util_js/jsonUtil.js"></script>
+		<script src="../../form_util/util/util_js/publicJsonUtil.js"></script>
+		<script src="../../form_util/util/util_js/strUtil.js"></script>
+		<script src="../../form_util/util/util_js/validateUtil.js"></script>
+		<script src="../../js/md5.js"></script>
+		<script src="../util/base.js"></script>
+	</body>
+
+</html>

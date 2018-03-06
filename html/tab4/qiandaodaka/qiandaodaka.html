@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8" />
+		<title>签到打卡</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<link href="../../../css/mui.min.css" rel="stylesheet" />
+		<link href="../../../form_util/mui/css/iconfont.css" rel="stylesheet" />
+		<link href="../../../css/base.css" rel="stylesheet" />
+		<link href="qiandaodaka.css" rel="stylesheet" />
+	</head>
+
+	<body>
+
+		<div class="actionbar">
+			<div class="left" onclick="back()">
+				<span class="left_icon  iconfont icon-arrow-left"></span>
+			</div>
+			<span class="text">签到打卡</span>
+			<div class="right">
+			</div>
+		</div>
+
+		<div class="actionbar_white"></div>
+
+		<button class="normal_button horizontalcenter" style="margin-top: 2rem;" onclick="goToShangbandaka()">上班打卡</button>
+		
+		<button class="normal_button horizontalcenter" style="background: #9999FF; margin-top: 2rem;" onclick="goToWaichudaka()">外出打卡</button>
+				
+		<div class="horizontal item_list daka" onclick="goToYijiandaka()">
+			<span class="item_left">一键打卡</span>
+			<div class="zhanweifu"></div>
+			<span class="item_right youjiantou iconfont icon-youjiantou"></span>
+		</div>
+		 
+		<div class="horizontal item_list_1" onclick="goToWodedakajilu()">
+			<span class="item_left">我的打卡记录</span>
+			<div class="zhanweifu"></div>
+			<span class="item_right youjiantou iconfont icon-youjiantou"></span>
+		</div>
+		
+		<script src="../../../js/util.js"></script>
+
+		<script src="../../util/base.js"></script>
+
+		<script src="../../../form_util/util/sys_js/jquery.js"></script>
+		<script src="../../../form_util/util/util_js/ajaxUtil.js"></script>
+		<script src="../../../form_util/util/util_js/bodyUtil.js"></script>
+		<script src="../../../form_util/util/util_js/jsonUtil.js"></script>
+		<script src="../../../form_util/util/util_js/publicJsonUtil.js"></script>
+		<script src="../../../form_util/util/util_js/strUtil.js"></script>
+
+		<script src="../../../form_util/util/util_js/validateUtil.js"></script>
+
+		<script src="../../../js/mui.min.js"></script>
+
+		<script src="qiandaodaka.js"></script>
+
+		<script type="text/javascript">
+			mui.init({
+
+			});
+		</script>
+
+	</body>
+
+</html>

@@ -1,0 +1,56 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.qiaodao-top{
+	padding: 10px 15px;
+	border: 1px solid #333333;
+	margin-top: 50px;
+}
+.qiaodao-top span{
+	margin-left: 15px;
+	color: #333333;
+}
+.qiandao{
+	padding:20px 20px
+}
+.qiandaoshijian{
+	font-size: 1rem;
+	color: #a1a1b1;
+	}
+	.qiandaodidian{
+		font-size: 1rem;
+		color: #0d0d0d;
+		margin-left: 20px;
+	}
+	.qiandao1{
+		margin-bottom: 30px;
+	}
+	.qiandao2{
+		color: #1abc9c;
+		margin-top: 5px;
+		position: relative;
+		top: 10px;
+		left: 8px;
+		font-size: 0.9rem;
+	}
+  .dizhi{
+  	margin-left: 30px;
+  	font-size: 0.9rem;
+  }
+  	.qiandao3{
+		color: #ff9966;
+		margin-top: 5px;
+		position: relative;
+		top: 10px;
+		left: 8px;
+		font-size: 0.9rem;
+	}
+	.ditu{
+		width: 100%;
+		height: 100%;
+	}
+.ditu img{
+	width: 100%;
+	height: 100%;
+}

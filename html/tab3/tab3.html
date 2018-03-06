@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>通讯录</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link href="../../css/mui.min.css" rel="stylesheet" />
+		<link href="../../form_util/mui/css/iconfont.css" rel="stylesheet" />
+		<link href="../../css/base.css" rel="stylesheet" />
+		<link href="tab3.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<header class="mui-bar-nav">
+			<div class="actionbar">
+				<div class="left">
+
+				</div>
+				<div style="width: 42px;"></div>
+				<span class="text">通讯录</span>
+				<div class="right" style="width: 90px;">
+					<span onclick="goToSearch()" class="right_icon iconfont icon-lingdang-xianxing"></span>
+					<span class="right_icon iconfont icon-shoucang"></span>
+				</div>
+			</div>
+		</header>
+
+		<div class="actionbar_white"></div>
+
+		<div class="horizontal item_list" onclick="goToSearch()">
+			<span class="item_left">人事部</span>
+			<div class="zhanweifu"></div>
+			<span class="item_renshu">3人</span>
+			<span class="item_right youjiantou iconfont icon-youjiantou"></span>
+		</div>
+
+		<div class="horizontal item_list_1" onclick="goToSearch()">
+			<span class="item_left">财务部</span>
+			<div class="zhanweifu"></div>
+			<span class="item_renshu">3人</span>
+			<span class="item_right youjiantou iconfont icon-youjiantou"></span>
+		</div>
+		
+		
+		<script src="tab3.js"></script>
+		<script src="../../js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+	</body>
+
+</html>

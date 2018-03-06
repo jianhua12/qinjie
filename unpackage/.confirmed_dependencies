@@ -1,0 +1,251 @@
+{
+	"index.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"html/tab-webview-subpage-about.html",
+			"fonts/mui.ttf",
+			"fonts/iconfont.ttf",
+			"js/util.js",
+			"html/tab-webview-subpage-chat.html"
+		],
+		"refer": [
+			"html/tab-webview-subpage-setting.html",
+			"html/tab-webview-subpage-chat.html",
+			"html/tab-webview-subpage-contact.html",
+			"html/tab-webview-subpage-about.html",
+			"html/new-webview.html"
+		]
+	},
+	"launch.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"html/tab-webview-subpage-about.html"
+		],
+		"refer": [
+			"html/tab-webview-subpage-setting.html",
+			"html/tab-webview-subpage-chat.html",
+			"html/tab-webview-subpage-contact.html",
+			"html/tab-webview-subpage-about.html"
+		]
+	},
+	"html/tab-webview-subpage-setting.html": {
+		"resources": [
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"js/mui.min.js"
+		],
+		"refer": []
+	},
+	"html/tab-webview-subpage-about.html": {
+		"resources": [
+			"css/mui.min.css",
+			"js/mui.min.js",
+			"js/util.js"
+		],
+		"refer": []
+	},
+	"html/tab-webview-subpage-chat.html": {
+		"resources": [
+			"fonts/mui.ttf",
+			"js/mui.min.js",
+			"css/mui.min.css"
+		],
+		"refer": []
+	},
+	"html/tab-webview-subpage-contact.html": {
+		"resources": [
+			"images/60x60.gif",
+			"js/mui.min.js",
+			"css/mui.min.css"
+		],
+		"refer": []
+	},
+	"html/new-webview.html": {
+		"resources": [
+			"css/mui.min.css",
+			"js/mui.min.js",
+			"fonts/mui.ttf"
+		],
+		"refer": []
+	},
+	"html/tab1/tab1.html": {
+		"resources": [
+			"html/tab2/tab2.html",
+			"html/tab1/pullrefresh_sub.html"
+		],
+		"refer": [
+			"html/tab2/tab2.html",
+			"html/tab4/tab4.html",
+			"html/tab3/tab3.html",
+			"html/splash/splash.html",
+			"html/tab1/pullrefresh_sub.html",
+			"html/tab1/activity/activity.html",
+			"html/search/search.html",
+			"html/tab4/teachOther/openClass/openClass.html",
+			"html/publishWish/publishWish.html",
+			"html/publishWish/someoneWish/someoneWish.html",
+			"html/tab1/personalMessage/personalMessage.html"
+		]
+	},
+	"html/tab4/tab4.html": {
+		"refer": [
+			"html/login/login.html",
+			"html/tab4/teachOther/teachOther.html",
+			"html/tab4/downloadManage/downloadManage.html",
+			"html/tab4/setting/setting.html",
+			"html/tab4/question/question.html",
+			"html/tab4/myCollect/myCollect.html",
+			"html/tab4/teachMyself/teachMyself.html",
+			"html/tab4/myProfit/myProfit.html",
+			"html/index.html",
+			"html/login/login_test.html",
+			"html/tab4/message/message.html",
+			"html/tab4/gerenxinxi/gerenxinxi.html",
+			"html/tab4/gongsigonggao/gongsigonggao.html",
+			"html/tab4/qiandaodaka/qiandaodaka.html",
+			"html/tab4/guanyuwomen/guanyuwomen.html",
+			"html/tab4/bangzhushuoming/bangzhushuoming.html",
+			"html/tab4/xiaoxi/xiaoxi.html"
+		],
+		"resources": [
+			"form_util/util/util_js/validateUtil.js",
+			"form_util/util/util_js/publicJsonUtil.js",
+			"form_util/util/util_js/strUtil.js"
+		]
+	},
+	"html/splash/splash.html": {
+		"refer": [
+			"html/tab1/tab1.html",
+			"html/index.html",
+			"html/login/login.html",
+			"html/guide/guide.html"
+		],
+		"resources": [
+			"html/splash/splash.js"
+		]
+	},
+	"html/login/login.html": {
+		"refer": [
+			"html/login/register/register.html",
+			"html/login/forgetPassword/forgetPassword.html",
+			"html/login/changePhoneArea/changePhoneArea.html"
+		],
+		"resources": []
+	},
+	"html/tab4/setting/setting.html": {
+		"refer": [
+			"html/tab4/setting/aboutUs/aboutUs.html",
+			"html/tab4/setting/privacyStatement/privacyStatement.html",
+			"html/tab4/setting/feedback/feedback.html",
+			"html/login/register/aggrement/aggrement.html",
+			"html/tab4/setting/personalMessage/personalMessage.html",
+			"html/tab4/setting/feedback/feedback_test.html"
+		],
+		"resources": []
+	},
+	"html/tab4/setting/personalMessage/personalMessage.html": {
+		"refer": [
+			"html/tab4/setting/personalMessage/changeData/changeData.html",
+			"html/tab4/setting/personalMessage/zhanghu/zhanghu.html"
+		],
+		"resources": []
+	},
+	"html/login/forgetPassword/forgetPassword.html": {
+		"refer": [
+			"html/login/changePhoneArea/changePhoneArea.html"
+		]
+	},
+	"html/login/register/register.html": {
+		"refer": [
+			"html/login/register/aggrement/aggrement.html",
+			"html/index.html",
+			"html/login/login.html"
+		]
+	},
+	"html/index.html": {
+		"resources": [
+			"html/tab1/tab1.html"
+		],
+		"refer": [
+			"html/tab2/tab2.html",
+			"html/tab4/tab4.html",
+			"html/tab3/tab3.html",
+			"html/tab1/tab1.html"
+		]
+	},
+	"html/tab2/tab2.html": {
+		"refer": [
+			"html/index.html",
+			"html/search/search.html"
+		]
+	},
+	"html/tab4/teachOther/teachOther.html": {
+		"refer": [
+			"html/tab4/teachOther/openClass/openClass.html"
+		],
+		"resources": [
+			"js/mui.min.js",
+			"images/zhikeyun_3.png"
+		]
+	},
+	"html/search/search.html": {
+		"refer": [
+			"html/search/searchResult/searchResult.html"
+		]
+	},
+	"html/tab1/activity/activity.html": {
+		"refer": [
+			"html/tab1/activity/activityDetail/activityDetail.html"
+		]
+	},
+	"html/tab3/tab3.html": {
+		"refer": [
+			"html/search/search.html",
+			"html/tab3/bumen/bumen.html"
+		]
+	},
+	"html/tab4/teachOther/openClass/openClass.html": {
+		"refer": [
+			"html/tab4/teachOther/openClass/beginProposal/beginProposal.html"
+		]
+	},
+	"html/search/searchResult/searchResult.html": {
+		"refer": [
+			"html/search/searchResult/searchAll/searchAll.html",
+			"html/tab4/teachOther/openClass/openClass.html",
+			"html/publishWish/publishWish.html"
+		]
+	},
+	"html/login/login_test.html": {
+		"refer": [
+			"html/login/register/register.html",
+			"html/login/changePhoneArea/changePhoneArea.html"
+		]
+	},
+	"html/tab4/myProfit/myProfit.html": {
+		"refer": [
+			"html/tab4/myProfit/allProfit/allProfit.html",
+			"html/tab4/myProfit/tixian/tixian.html"
+		]
+	},
+	"html/tab4/myProfit/tixian/tixian.html": {
+		"refer": [
+			"html/tab4/myProfit/tixian/addBankCard/addBankCard.html"
+		]
+	},
+	"html/guide/guide.html": {
+		"refer": [
+			"html/login/login.html",
+			"html/login/register/register.html"
+		]
+	},
+	"html/tab4/qiandaodaka/qiandaodaka.html": {
+		"refer": [
+			"html/tab4/qiandaodaka/waichudaka/waichudaka.html",
+			"html/tab4/qiandaodaka/shangbandaka/shangbandaka.html",
+			"html/tab4/qiandaodaka/yijiandaka/yijiandaka.html"
+		]
+	}
+}

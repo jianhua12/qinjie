@@ -1,0 +1,26 @@
+body{
+	background: #FFFFFF;
+}
+.center {
+	background: #FFFFFF;
+	display: flex;
+}
+
+
+.center_img {
+	margin-left: 5vw;
+	margin-top: 20px;
+	width: 90vw;
+	height: 59.4vw;
+}
+ 
+
+.center_txt_div{
+	background: #FFFFFF;
+	padding:5vw; 
+}
+
+.center_txt { 
+	color: #545454;
+	font-size: 14px;
+}

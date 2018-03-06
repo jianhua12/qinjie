@@ -1,0 +1,173 @@
+.body{
+	width: 100%;
+	height: 100%;
+
+}
+.ruzhidengji{
+	width: 100%;
+	border: 1px solid #333333;
+	margin-top: 60px;
+	margin-bottom: 15px;
+}
+.ruzhibiao{
+    padding: 8px 8px;
+}
+.ruzhibiao span{
+	width: 40%;
+	display: inline-block;
+	color: #333333;
+	font-size: 0.9rem;
+}
+.ruzhibiao .input{
+	width: 69%;
+	display: inline-block;
+	float: right;
+	margin-top: -6px;
+	height: 30px;
+	border: none;
+	font-size: 0.9rem;
+}
+.fujian{
+	width: 100%;
+}
+.dengjitu{
+  display: inline-block;
+  width: 90%;
+  padding: 0px 10px 10px 10px;
+ font-size: 0.85rem;
+ color: #FF0000;
+ text-decoration: underline;
+}
+.dengjitu img{
+	margin-right: 10px;
+}
+
+.tupian{
+  float: right;
+  margin-top: 0px;
+}
+.ruzhidengji1{
+	width: 100%;
+	border: 1px solid #333333;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+.ruzhidengji2{
+	width: 100%;
+	border: 1px solid #333333;
+	}
+	
+.ruzhidengji3{
+	width: 100%;
+	border: 1px solid #333333;
+	border-top:none ;
+	}
+.ruzhidengji4{
+	width: 100%;
+	border: 1px solid #333333;
+	border-top:none ;
+	}
+		
+.tijiao{
+	width: 80%;
+	height: 40px;
+	border-radius: 20px;
+	text-align: center;
+	margin: auto;
+	margin-left: 10%;
+	background-color: #14b593;
+	color: #fff;
+    display: inline-block;
+    margin-top: 40px;
+}
+.waichushijian2{
+  width: 100%;
+  border: 1px solid #333333;
+  padding: 10px 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-top:none;
+}
+.shijian1{
+	color: #FF0000;
+	float: right;
+	margin-right: 15px;
+}
+
+.xian{
+	margin-left: 30px;
+	display: inline-block;
+	height: 70px;
+	
+}
+.xian img{
+	display: block;
+	margin-top: 0px;
+}
+	.dagou{
+	margin-left: -10px;;	
+	
+}
+.xiangmuzhongjian{
+	width: 80%;
+	display: inline-block;
+	border: 1px solid #ccc;
+	padding: 15px;
+	margin-top: 20px;
+}
+.xiangmuzhongjian span img{
+	height: 40px;
+	
+}
+.xiangmuzhongjian1{
+	width: 80%;
+	display: inline-block;
+	border: 1px solid #ccc;
+	padding: 15px;
+	margin-top: 20px;
+	margin-left: 48px;
+}
+.xiangmuzhongjian1 span img{
+	height: 40px;
+	
+}
+.wo{
+	display: inherit;
+	
+	
+}
+.wo1{
+	display: block;
+	font-size: 0.9rem;
+	color: #333333;
+}
+.faqi{
+	display: inline-block;
+	font-size: 0.8rem;
+	color: #1abc9c;
+}
+.shijian11{
+	font-size: 0.75rem;
+	margin-top: -0px;
+	float: right;
+	color: #aeaeae;
+}
+.faqi1{
+	display: inline-block;
+	font-size: 0.8rem;
+	color:#FF0000;
+}
+.shijian111{
+	font-size: 0.75rem;
+	margin-top: -0px;
+	float: right;
+	color: #ccc;
+}
+.waichu{
+	color: #333333;
+}
+.ruzhibiao .input1{
+  	font-size: 0.9rem;
+  	width: 60%;
+  	display: inline-block;
+}

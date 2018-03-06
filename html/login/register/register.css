@@ -1,0 +1,168 @@
+body {
+	background: #FFFFFF;
+}
+
+.white {
+	background: #FFFFFF;
+}
+
+.mui-control-content {
+	background-color: white;
+	min-height: 80vh;
+}
+
+.mui-control-content .mui-loading {
+	margin-top: 50px;
+}
+
+.mui-segmented-control.mui-segmented-control-inverted~.mui-slider-progress-bar {
+	background-color: #1ABC9C;
+}
+
+.phone {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.eightSix {
+	margin-left: 10px;
+	font-size: 15pt;
+}
+
+.xiajiantou {
+	font-size: 20px;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.phone_number {
+	padding-left: 10px;
+	height: 100%;
+	border: 0;
+	flex: 1;
+	background: #FAFAFA;
+}
+
+.yaoshi {
+	font-size: 23pt;
+	color: gray;
+	margin-left: 10px;
+}
+
+.anquan {
+	font-size: 20pt;
+	color: gray;
+	margin-left: 10px;
+}
+
+.denglu {
+	margin-top: 25px;
+}
+
+.all_login {
+	width: 100vw;
+	display: flex;
+}
+
+.forget_password {
+	color: #FFA20E;
+	margin-top: 10px;
+	margin-right: 30px;
+}
+
+.forget_password_all {
+	display: flex;
+}
+
+.forget_password_null {
+	flex: 1;
+}
+
+.divider_login {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.line {
+	height: 1px;
+	flex: 1;
+	background: gray;
+}
+
+.line_text {
+	color: gray;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.getacode {
+	flex: 1;
+	height: 100%;
+	color: #FFA20E;
+	background: #FAFAFA;
+	border: 0;
+}
+
+.ggg {
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
+.margin_top {
+	margin-top: 2rem;
+}
+
+.item_register {
+	height: 3.1rem;
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+	border-bottom: 1px solid #E4E4E4;
+	
+}
+
+.item_register_left {
+	color: #A1A1A1;
+	font-size: 1.5rem;
+	line-height: 3.1rem;
+}
+
+.edt_gg {
+	background: #FFFFFF;
+	height: 3rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	border: 0px solid gray;
+	border-radius: 5px;
+}
+
+ 
+.mui-slider .mui-slider-group .mui-slider-item img {
+    height: 1rem;
+	width: 1rem;
+}
+.xieyi{
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	justify-content:center;
+}
+.fuwuxieyi{
+	color: #1ABC9C;
+	line-height: 1rem;
+}
+.gou{
+	margin-right: 0.5rem;
+}
+.gou_txt{
+	line-height: 1rem;
+	color: #999999;
+}
+
+.julidibu{
+	height: 2rem;
+}

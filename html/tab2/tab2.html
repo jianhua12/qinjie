@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>工作台</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link href="../../css/mui.min.css" rel="stylesheet" />
+		<link href="../../form_util/mui/css/iconfont.css" rel="stylesheet" />
+		<link href="../../css/base.css" rel="stylesheet" />
+		<link href="tab2.css" rel="stylesheet" />
+	</head>
+
+	<body>
+
+		<div class="horizontalcenter top_title">工作台</div>
+
+		<div class="horizontalcenter2 top">
+			<div class="vertical top_left">
+				<span>周三</span>
+				<span>2017.02.03</span>
+			</div>
+			<div class="zhanweifu"></div>
+			<img src="../../images/u607.png" />
+			<div class="zhanweifu"></div>
+			<div class="top_right">签到打卡</div>
+		</div>
+		<div class="horizontalcenter top_title">李晓明</div>
+		<div class="horizontalcenter top_title">酷蜂分公司：财务主管</div>
+
+		<div class="title" style="margin-top: 1rem;">
+			人事管理
+		</div>
+
+		<div class="horizontal grid">
+
+			<div class="zhanweifu verticalcenter" onclick="goToRenshiRuzhishenqing()">
+				<span class="caidan iconfont icon-caidan color1"></span>
+				<span class="grid_txt" >入职申请</span>
+			</div>
+			<div class="zhanweifu verticalcenter" onclick="goToRenshiWaichudengji()">
+				<span class="caidan iconfont icon-caidan color2"></span>
+				<span class="grid_txt">外出登记</span>
+			</div>
+			<div class="zhanweifu verticalcenter" onclick="goToRenshiQingjiadengji()">
+				<span class="caidan iconfont icon-caidan color3"></span>
+				<span class="grid_txt">请假登记</span>
+			</div>
+			<div class="zhanweifu verticalcenter" onclick="goToRenshiShenpi()">
+				<span class="caidan iconfont icon-caidan color4"></span>
+				<span class="grid_txt">审批</span>
+			</div>
+
+		</div>
+		<div class="horizontal grid">
+
+			<div class="zhanweifu verticalcenter" onclick="goToRenshiLizhishenqing()">
+				<span class="caidan iconfont icon-caidan color5"></span>
+				<span class="grid_txt">离职申请</span>
+			</div>
+			<div class="zhanweifu verticalcenter">
+			</div>
+			<div class="zhanweifu verticalcenter">
+			</div>
+			<div class="zhanweifu verticalcenter">
+			</div>
+
+		</div>
+		<div class="divider_1"></div>
+		<div class="title" style="margin-top: 1rem;">
+			行政管理
+		</div>
+		<div class="horizontal grid">
+
+			<div class="zhanweifu verticalcenter" onclick="goToXingzhengWuziguanli()">
+				<span class="caidan iconfont icon-caidan color6"></span>
+				<span class="grid_txt">物资管理</span>
+			</div>
+			<div class="zhanweifu verticalcenter" onclick="goToXingzhengCaigoushenqing()">
+				<span class="caidan iconfont icon-caidan color7"></span>
+				<span class="grid_txt">采购申请</span>
+			</div>
+			<div class="zhanweifu verticalcenter" onclick="goToXingzhengShenpi()">
+				<span class="caidan iconfont icon-caidan color8"></span>
+				<span class="grid_txt">审批</span>
+			</div>
+			<div class="zhanweifu verticalcenter">
+			</div>
+
+		</div>
+		<div class="divider_1"></div>
+		<div class="title" style="margin-top: 1rem;">
+			财政管理
+		</div>
+		<div class="horizontal grid">
+
+			<div class="zhanweifu verticalcenter" onclick="goToCaizhengFeiyongshenqing()">
+				<span class="caidan iconfont icon-caidan color9"></span>
+				<span class="grid_txt">费用申请</span>
+			</div>
+			<div class="zhanweifu verticalcenter" onclick="goToCaizhengShenpi()">
+				<span class="caidan iconfont icon-caidan color10"></span>
+				<span class="grid_txt">审批</span>
+			</div>
+			<div class="zhanweifu verticalcenter">
+			</div>
+			<div class="zhanweifu verticalcenter">
+			</div>
+
+		</div>
+		<div style="height: 2rem;"></div>
+		<script src="tab2.js"></script>
+		<script src="../../js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+	</body>
+
+</html>
+<script>
+	function goToRenshiRuzhishenqing(){
+		window.open("renshi/ruzhishenqing/ruzhidengji.html")
+	}
+
+		function goToRenshiWaichudengji(){
+		window.open("renshi/kaoqing/kaoqin.html")
+		}
+		function goToRenshiQingjiadengji(){
+		window.open("renshi/qingjiadengji/qingjia.html")
+		}
+		function goToRenshiShenpi(){
+		window.open("renshi/shenpi/wosengpi.html")
+	}
+		function goToXingzhengWuziguanli(){
+		window.open("xingzheng/caigoushenqing/wuziguanli/wuzhiguanli.html")
+	}
+		function goToXingzhengCaigoushenqing(){
+		window.open("xingzheng/caigoushenqing/caigou.html")
+	}
+		function goToXingzhengShenpi(){
+		window.open("xingzheng/shenpi/wofaqi.html")
+	}
+		function goToCaizhengFeiyongshenqing(){
+		window.open("caizhengguanli/feiyongshenqing/feiyong.html")
+	}
+		function goToCaizhengShenpi(){
+		window.open("caizhengguanli/shenpi/wofaqi.html")
+	}
+</script>

@@ -1,0 +1,31 @@
+.top_login {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 4.5rem;
+	background: #007AFF;
+}
+
+.top_login_img {
+	margin-left: 1rem;
+	margin-right: 1rem;
+	height: 3.5rem;
+	widows: 3.5rem;
+	border-radius: 50px
+}
+
+.top_login_tips {
+	display: flex;
+	flex-direction: column;
+}
+
+.top_login_tip1 {}
+
+.top_login_tip2 {
+	color: #f2f2f2;
+	font-size: 0.8rem;
+}
+
+.top_login_message {}
+
+.icon_message {}

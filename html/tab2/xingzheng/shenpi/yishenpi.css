@@ -1,0 +1,86 @@
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+ul{
+	width: 100%;
+	list-style: none;
+	margin-top: 60px;
+}
+ul li{
+	float: left;
+	width: 50%;
+	text-align: center;
+	border: 1px solid #747474;
+	padding: 10px 0px;
+	border-top: none;
+	border-left:none ;
+	border-right: none;
+	color: #000;
+	font-size: 1rem;
+}
+ ul .yishenbi{
+	border-left: 1px solid #747474;
+	color: #1abc9c;
+}
+.iwaichu{
+	padding:0px 10px 40px 10px ;
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+    	
+	
+}
+.iwaichu-top{
+  margin-top: 20px;
+  margin-bottom: 5px;
+  display: inline-block;
+  width: 100%;	
+}
+.waichuleft{
+	font-size: 1rem;
+	color: #333333;
+}
+.waichuright{
+	float: right;
+	margin-right: 10px;
+	font-size: 0.9rem;
+	color: #aebcd7;
+}
+.waichushijian{
+	padding: 0px 10px;
+	width: 100%;
+}
+.waichu .left{
+	font-size:0.9rem ;
+	width: 30%;
+	display: inline-block;
+	color: #aebcd7;
+}
+.waichu .right{
+	font-size: 0.9rem;
+	width: 70%;
+	display: inline-block;
+	color: #aebcd7;
+}
+.right-r{
+	font-size: 1rem;
+	width: 20%;
+	display: inline-block;
+	color: #1abc9c;
+}
+.xiangqing{
+
+	border: 1px solid #333333;
+	display: inline-block;
+	text-align: center;
+	padding: 6px 12px;
+	color: #333333;
+	float: right;
+}
+.right-l{
+	font-size: 1rem;
+	width: 40%;
+	display: inline-block;
+	color: #FF0000;
+}

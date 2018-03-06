@@ -1,0 +1,314 @@
+/*带图片,文字,右箭头的item*/
+
+body {
+	margin: 0;
+	background: #ffffff;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+img {
+	vertical-align: bottom;
+}
+
+
+/*带图片,文字,右箭头的item开始*/
+
+.item_icon_text_arrow {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 3rem;
+	width: 100vw;
+	background: #FFFFFF;
+}
+
+.item_icon_text_arrow .left {
+	margin-right: 1rem;
+	margin-left: 1rem;
+	justify-content: center;
+	display: flex;
+	font-size: 1.8rem;
+}
+
+.item_icon_text_arrow .text {
+	flex: 1;
+}
+
+.item_icon_text_arrow .right {
+	justify-content: center;
+	display: flex;
+	font-size: 1rem;
+	/*margin-right: 1rem;*/
+}
+
+.item_icon_text_arrow .rightTxt {
+	justify-content: center;
+	display: flex;
+	font-size: 1rem;
+	/*margin-right: 1rem;*/
+}
+
+
+/*带图片,文字,右箭头的item结束*/
+
+
+/*带文字,右箭头的item开始*/
+
+.item_text_arrow {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 3rem;
+	width: 100vw;
+	background: #FFFFFF;
+}
+
+.item_text_arrow .left {
+	margin-right: 1rem;
+	margin-left: 1rem;
+	justify-content: center;
+	display: flex;
+	font-size: 1.8rem;
+}
+
+.item_text_arrow .text {
+	flex: 1;
+	margin-left: 1rem;
+}
+
+.item_text_arrow .right {
+	justify-content: center;
+	display: flex;
+	font-size: 1rem;
+	margin-right: 1rem;
+}
+
+
+/*带图片,文字,右箭头的item结束*/
+
+
+/*分割线开始*/
+
+.divider_margin {
+	/*分割线，有边距，为什么要写两个呢，因为有可能背景色不是白色的*/
+	background: #FFFFFF;
+}
+
+.divider_margin_center {
+	/*分割线，有边距*/
+	margin-left: 1rem;
+	margin-right: 1rem;
+	border-top: 0.1rem solid #f2f2f2;
+}
+
+.divider {
+	/*分割线，无边距*/
+	border-top: 0.1rem solid #f2f2f2;
+}
+
+.divider_height {
+	/*分割线,高度较高*/
+	height: 1rem;
+	background: #f2f2f2;
+}
+
+.divider_horizontal{
+	/*垂直分割线*/
+	height: 100%;
+	width: 1px;
+	background: black;
+}
+
+/*分割线结束*/
+
+
+/*顶部导航栏开始*/
+
+.actionbar {
+	position: fixed;
+	background: #1ABC9C;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 48px;
+	width: 100vw; 
+	box-shadow: 0px 0px 5px #888888;
+}
+
+.actionbar .left {
+	width: 48px;
+	height: 48px;
+	display: flex;
+	justify-content: center;
+	margin-left: 5px;
+	align-items: center;
+}
+
+.actionbar .left_icon {
+	justify-content: center;
+	display: flex;
+	font-size: 1.3rem;
+	color: #FFFFFF;
+	
+}
+
+.actionbar .text {
+	margin: auto;
+	color: #FFFFFF;
+}
+
+.actionbar .right {
+	width: 48px;
+	height: 48px;
+	margin-right: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #FFFFFF;
+}
+
+.actionbar .right_txt {
+	font-size: 1rem;
+	color: #FFFFFF;
+}
+
+.actionbar .right_icon {
+	font-size: 1.5rem;
+	color: #FFFFFF;
+}
+
+.actionbar_white {
+	height: 48px;
+	background: #FFFFFF;
+	/*box-shadow: 0px 0px 5px #888888;*/
+}
+
+
+/*顶部导航栏结束*/
+
+
+/*按钮集合开始*/
+
+.normal_button {
+	margin-left: auto;
+	margin-right: auto;
+	background: #1ABC9C;
+	color: #FFFFFF;
+	width: 68vw; 
+	padding-top: 12px;
+	padding-bottom: 12px;
+	border-radius: 24px;
+	text-align: center;
+}
+
+.small_button {
+	margin-left: auto;
+	margin-right: auto;
+	background: #FFFFFF;
+	border: 1px solid #FFA20E;
+	color: #FFA20E;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-radius: 24px;
+	text-align: center;
+}
+
+.small_button_1 {
+	margin-left: auto;
+	margin-right: auto;
+	background: #FFFFFF;
+	border: 1px solid #FFA20E;
+	color: #FFA20E;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 24px;
+	text-align: center;
+}
+
+
+/*按钮集合结束*/
+
+
+/*编辑框开始*/
+
+.edt_normal {
+	background: #FAFAFA;
+	height: 3rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	border: 1px solid gray;
+	border-radius: 5px;
+	
+}
+
+
+
+/*编辑框结束*/
+
+
+.youjiantou{
+	font-size: 2rem;
+ 
+	color: #999999;
+}
+.item_left{
+	margin-left: 1rem;
+}
+.item_right{
+	margin-right: 1rem;
+} 
+.item_list{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	border-top:1px solid #CCCCCC;
+}
+.item_list_1{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	border-top:1px solid #CCCCCC;
+	border-bottom:1px solid #CCCCCC; 
+}
+
+
+.zhanweifu{
+	flex: 1;
+}
+ 
+.vertical{
+	display: flex;
+	flex-direction: column;
+}
+.horizontal{
+	display: flex;
+	flex-direction: row;
+}
+
+/*垂直居中*/
+.verticalcenter{
+	display: flex;
+	flex-direction: column;
+	align-items:center; 
+}
+
+/*水平居中*/
+.horizontalcenter{
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+}
+/*水平居中2*/
+.horizontalcenter2{
+	display: flex;
+	flex-direction: row;
+	align-items:center; 
+}
+
+

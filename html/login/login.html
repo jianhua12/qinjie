@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>登陆</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link href="../../css/mui.min.css" rel="stylesheet" />
+		<link href="../../form_util/mui/css/iconfont.css" rel="stylesheet" />
+		<link href="../../css/base.css" rel="stylesheet" />
+
+		<link href="login.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<div class="vertical">
+			<div class="horizontalcenter">
+				<img src="../../images/u51.png" class="avatar" />
+			</div>
+			<div class="ggg">
+				
+				<div class="item_register" onclick="goToMyCollect()">
+					<span class="item_register_left  iconfont icon-yingyezhizhao"></span>
+					<input class="edt_gg" placeholder="手机号码"></input>
+				</div>
+				
+				<div class="item_register" onclick="goToMyCollect()">
+					<span class="item_register_left  iconfont icon-yingyezhizhao"></span>
+					<input class="edt_gg" placeholder="登陆密码"></input>
+				</div>
+				<div style="margin-top: 1rem;"> </div>
+				<div class="horizontal">
+					<div class="zhuce" onclick="goToRegister()">
+						新用户注册
+					</div>
+					<div class="zhanweifu"></div>
+					<div class="wangjimima" onclick="goToForgetPassword()">
+						忘记密码
+					</div>
+				</div>
+
+				<div style="margin-top: 1rem;"> </div>
+				<button class="normal_button horizontalcenter" onclick="goToMain()">登陆</button>
+				<div class="divider_login">
+					<div class="line"></div>
+					<span class="line_text">OR</span>
+					<div class="line"></div>
+				</div>
+				<div class="horizontal qitadenglu">
+					<span class="lefticon1  iconfont icon-weixin"></span>
+					<span class="center_txtt">微信账号登陆</span>
+					<span class="righticon"></span>
+				</div>
+				<div style="margin-top: 1rem;"></div>
+				<div class="horizontal qitadenglu ">
+					<span class="lefticon2  iconfont icon-shouji-tianchong"></span>
+					<span class="center_txtt">手机号登陆</span>
+					<span class="righticon"></span>
+				</div>
+			</div>
+		</div>
+		<script src="../../js/mui.min.js"></script>
+		<script src="login.js"></script>
+		<script>
+			mui.init({
+				swipeBack: false
+			});
+			(function($) {
+				$('.mui-scroll-wrapper').scroll({
+					indicators: true //是否显示滚动条
+				});
+ 
+				var sliderSegmentedControl = document.getElementById('sliderSegmentedControl');
+				$('.mui-input-group').on('change', 'input', function() {
+					if(this.checked) {
+						sliderSegmentedControl.className = 'white mui-slider-indicator mui-segmented-control mui-segmented-control-inverted mui-segmented-control-' + this.value;
+						//force repaint 
+						sliderProgressBar.setAttribute('style', sliderProgressBar.getAttribute('style'));
+					}
+				});
+			})(mui);
+		</script>
+		<script src="../../form_util/util/sys_js/jquery.js"></script>
+		<script src="../../form_util/util/util_js/ajaxUtil.js"></script>
+		<script src="../../form_util/util/util_js/bodyUtil.js"></script>
+		<script src="../../form_util/util/util_js/jsonUtil.js"></script>
+		<script src="../../form_util/util/util_js/publicJsonUtil.js"></script>
+		<script src="../../form_util/util/util_js/strUtil.js"></script>
+		<script src="../../form_util/util/util_js/validateUtil.js"></script>
+		<script src="../../js/md5.js"></script>
+		<script src="../util/base.js"></script>
+	</body>
+
+</html>

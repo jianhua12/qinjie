@@ -1,0 +1,20 @@
+.top{
+	background: #F2F2F2;
+	margin: 1rem;
+	padding: 2rem;
+}
+
+.name{
+	color: #333333;
+}
+
+.phone{
+	color: #999999;
+}
+
+.top_img{
+	height: 5rem;
+	width: 5rem;
+}
+ 
+ 

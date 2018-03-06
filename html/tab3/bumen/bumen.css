@@ -1,0 +1,39 @@
+ * {
+ 	margin: 0;
+ 	padding: 0;
+ }
+ body {
+	background: #FFFFFF;
+}
+.history {
+ 	width: 100%;
+ 	display: inline;
+ 	white-space: nowrap;
+ 	overflow-y: scroll;
+ 	float: left;
+ 	overflow-x: hidden;
+ 	margin-left: 0px;
+ }
+ 
+ .history li {
+ 	list-style-type: none;
+ 	 
+ 	padding-top: 10px;
+ 	padding-bottom: 10px;
+ 	border-bottom:1px solid #F2F2F2;
+ }
+ 
+ .item_listaa{
+ 	padding-top: 0.5rem;
+ 	padding-bottom: 0.5rem;
+ 	margin-left: 20px;
+ 	margin-right: 20px;
+ }
+.item_txt{
+	margin-left: 1rem;
+}
+
+.youjiantou{
+	font-size: 2rem;
+	color: #999999;
+}

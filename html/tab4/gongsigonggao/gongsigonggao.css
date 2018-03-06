@@ -1,0 +1,26 @@
+.item_gonggao{
+	padding: 1rem;
+	border-bottom:1px solid #CCCCCC;
+}
+
+
+.item_gonggao_1{
+	padding: 1rem;
+	border-top:1px solid #CCCCCC;
+	border-bottom:1px solid #CCCCCC;
+}
+  
+.item_gonggao_right{
+	margin-left: 3rem;
+}
+
+.item_gonggao_title1{
+	
+}
+.item_gonggao_title2{
+	color: #999999;
+	font-size: 0.8rem;
+}
+.item_gonggao_title3{
+	
+}

@@ -1,0 +1,35 @@
+ 
+
+.edt_gg {
+	background: #FFFFFF;
+	margin-right: 1rem;
+	border: 0px solid gray;
+	flex: 2;
+}
+.item_list{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	border-top:1px solid #CCCCCC;
+}
+.item_list_1{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	border-top:1px solid #CCCCCC;
+	border-bottom:1px solid #CCCCCC; 
+}
+.item_left{
+	margin-left: 1rem;
+	flex: 1;
+}
+.item_right{
+	margin-right: 1rem;
+} 
+
+.divider_1{
+	border-top: 1px solid #CCCCCC;
+}
+.horizontal{
+	
+	
+	
+	}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>用户引导页</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link href="../../css/mui.min.css" rel="stylesheet" />
+		<link href="../../form_util/mui/css/iconfont.css" rel="stylesheet" />
+		<link href="../../css/base.css" rel="stylesheet" />
+
+		<link href="guide.css" rel="stylesheet" />
+	</head>
+
+	<body>
+
+		<div class="mui-content">
+			<div id="slider" class="mui-slider">
+
+				<div id="sliderProgressBar" class="mui-slider-progress-bar mui-col-xs-6"></div>
+				<div class="mui-slider-group">
+					<div id="item1mobile" class="mui-slider-item mui-control-content mui-active">
+						<div id="scroll1" class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+
+								<div class="verticalcenter">
+									<div class="guide_title1">清洁项目管理</div>
+									<div class="guide_title2">简化步骤、移动审批、考勤</div>
+									<img class="guide_img" src="../../images/u14.png" />
+									<div class="margin_top1"></div>
+									<div class="horizontalcenter " > 
+										<div class="yuanquan_1"></div>
+										<div class="yuanquan_2"></div>
+										<div class="yuanquan_2"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div id="item2mobile" class="mui-slider-item mui-control-content">
+						<div id="scroll2" class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+								<div class="verticalcenter">
+									<div class="guide_title1">清洁项目管理</div>
+									<div class="guide_title2">简化步骤、移动审批、考勤</div>
+									<img class="guide_img" src="../../images/u14.png" />
+									<div class="margin_top1"></div>
+									<div class="horizontalcenter " > 
+										<div class="yuanquan_2"></div>
+										<div class="yuanquan_1"></div>
+										<div class="yuanquan_2"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div id="item2mobile" class="mui-slider-item mui-control-content">
+						<div id="scroll2" class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+								<div class="verticalcenter">
+									<div class="guide_title1">清洁项目管理</div>
+									<div class="guide_title2">简化步骤、移动审批、考勤</div>
+									<img class="guide_img" src="../../images/u14.png" />
+									<div class="margin_top1"></div>
+									<div class="horizontalcenter " > 
+										<div class="yuanquan_2"></div>
+										<div class="yuanquan_2"></div>
+										<div class="yuanquan_1"></div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+		</div>  
+		<div class="horizontalcenter">
+			<div class="login" onclick="goToLogin()">登陆</div>
+			<div class="register" onclick="goToRegister()">注册</div>
+			
+		</div>
+		<script src="../../js/mui.min.js"></script>
+		<script src="guide.js"></script>
+		<script>
+			mui.init({
+				swipeBack: false
+			});
+			(function($) {
+				$('.mui-scroll-wrapper').scroll({
+					indicators: false //是否显示滚动条
+				});
+				 
+			})(mui);
+			
+			mui.init({
+				//预加载下个界面
+				preloadPages: [{
+					url: '../login/login.html',
+					id: 'index'
+				},
+				{
+					url: '../login/register/register.html',
+					id: 'register'
+				}
+				]
+			});
+			 
+		</script>
+		<script src="../../form_util/util/sys_js/jquery.js"></script>
+		<script src="../../form_util/util/util_js/ajaxUtil.js"></script>
+		<script src="../../form_util/util/util_js/bodyUtil.js"></script>
+		<script src="../../form_util/util/util_js/jsonUtil.js"></script>
+		<script src="../../form_util/util/util_js/publicJsonUtil.js"></script>
+		<script src="../../form_util/util/util_js/strUtil.js"></script>
+		<script src="../../form_util/util/util_js/validateUtil.js"></script>
+		<script src="../../js/md5.js"></script>
+		<script src="../util/base.js"></script>
+	</body>
+
+</html>

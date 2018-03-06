@@ -1,0 +1,81 @@
+.body{
+	width: 100%;
+	height: 100%;
+
+}
+.ruzhidengji{
+	width: 100%;
+	border: 1px solid #000;
+	margin-top: 60px;
+}
+.ruzhibiao{
+    padding: 8px 8px;
+}
+.ruzhibiao span{
+	width: 30%;
+	display: inline-block;
+	color: ##333333;
+	font-size: 0.9rem;
+}
+.ruzhibiao .input{
+	    width: 69%;
+    display: inline-block;
+    float: right;
+    border: none;
+    font-size: 0.9rem;
+    padding: 0px;
+    height: 22px;
+}
+.fujian{
+	width: 100%;
+}
+.dengjitu{
+  display: inline-block;
+  width: 90%;
+  padding: 0px 10px 10px 10px;
+ font-size: 0.85rem;
+ color: #999999;
+}
+.dengjitu img{
+	margin-right: 10px;
+}
+
+.tupian{
+  float: right;
+  margin-top: -5px;
+}
+.ruzhidengji1{
+	width: 100%;
+	border: 1px solid #000;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+.ruzhidengji2{
+	width: 100%;
+	border: 1px solid #000;
+	}
+	
+.ruzhidengji3{
+	width: 100%;
+	border: 1px solid #000;
+	border-top:none ;
+	}
+.ruzhidengji4{
+	width: 100%;
+	border: 1px solid #000;
+	border-top:none ;
+	margin-bottom: 10px;
+	}
+		
+.tijiao{
+	width: 80%;
+	height: 40px;
+	border-radius: 20px;
+	text-align: center;
+	margin: auto;
+	margin-left: 10%;
+	background-color: #14b593;
+	color: #fff;
+    display: inline-block;
+    margin-top: 40px;
+}

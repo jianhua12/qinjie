@@ -1,0 +1,40 @@
+.top{
+	height: 4rem;
+}
+
+.shijian{
+	border:1px solid gray;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	margin-left: 1rem;
+	border-radius:1rem ;
+}
+
+.shangban{
+	padding-top: 1rem;
+	padding-left: 1rem;
+}
+.shangban1{
+	padding-left: 1rem;
+}
+
+.title1{
+	color: #999999;
+}
+.top1{
+	margin-top: 0.5rem;
+}
+.status{
+	border:1px solid #77D7C4;
+	color: #1ABC9C;
+	background: #BBEBE1;
+	padding-left: 1.3rem;
+	padding-right: 1.3rem;
+	padding-top: 0.2rem;
+	padding-bottom: 0.2rem;
+	margin-left: 1rem;
+	border-radius:1rem;
+ 	margin-bottom: 1rem;
+}

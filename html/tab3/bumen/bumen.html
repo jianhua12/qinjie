@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8" />
+		<title>首页</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<link href="../../../css/mui.min.css" rel="stylesheet" />
+		<link href="../../../form_util/mui/css/iconfont.css" rel="stylesheet" />
+		<link href="../../../css/base.css" rel="stylesheet" />
+		<link href="bumen.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<div class="actionbar">
+			<div class="left" onclick="back()">
+				<span class="left_icon  iconfont icon-arrow-left"></span>
+			</div>
+			<span class="text">人事部</span>
+			<div class="right">
+				<span onclick="goToSearch()" class="right_icon iconfont icon-lingdang-xianxing"></span>
+			</div>
+		</div>
+
+		<div class="actionbar_white"></div>
+
+		<ul class="history">
+			<li onclick="goToSearchResult()">
+				<div class="horizontalcenter2 item_listaa">
+					<img src="../../../images/u3914.png" />
+					<span class="item_txt">猫阿宝</span>
+					<div class="zhanweifu"></div>
+					<span class="youjiantou iconfont icon-youjiantou"></span>
+				</div>
+			</li>
+			<li onclick="goToSearchResult()">
+				<div class="horizontalcenter2 item_listaa">
+					<img src="../../../images/u3914.png" />
+					<span class="item_txt">猫阿宝</span>
+					<div class="zhanweifu"></div>
+					<span class="youjiantou iconfont icon-youjiantou"></span>
+				</div>
+			</li>
+
+		</ul>
+
+		<script src="../../../js/util.js"></script>
+
+		<script src="../../util/base.js"></script>
+
+		<script src="../../../form_util/util/sys_js/jquery.js"></script>
+		<script src="../../../form_util/util/util_js/ajaxUtil.js"></script>
+		<script src="../../../form_util/util/util_js/bodyUtil.js"></script>
+		<script src="../../../form_util/util/util_js/jsonUtil.js"></script>
+		<script src="../../../form_util/util/util_js/publicJsonUtil.js"></script>
+		<script src="../../../form_util/util/util_js/strUtil.js"></script>
+
+		<script src="../../../form_util/util/util_js/validateUtil.js"></script>
+
+		<script src="../../../js/mui.min.js"></script>
+
+		<script src="bumen.js"></script>
+
+		<script type="text/javascript">
+			//启用双击监听
+			//			mui.init({
+			//				gestureConfig: {
+			//					doubletap: true
+			//				},
+			//				subpages: [{
+			//					url: 'pullrefresh_sub.html',
+			//					id: 'pullrefresh_sub.html',
+			//					styles: {
+			//						top: '48px',
+			//						bottom: '0px',
+			//					}
+			//				}]
+			//			});
+
+			//			var contentWebview = null;
+			//			document.querySelector('header').addEventListener('doubletap', function() {
+			//				if(contentWebview == null) {
+			//					contentWebview = plus.webview.currentWebview().children()[0];
+			//				}
+			//				contentWebview.evalJS("mui('#pullrefresh').pullRefresh().scrollTo(0,0,100)");
+			//			});
+
+			mui.init({
+				//预加载下个界面
+				preloadPages: [{
+					url: 'personalMessage/personalMessage.html',
+					id: 'personalMessage'
+				}]
+			});
+		</script>
+
+	</body>
+
+</html>
